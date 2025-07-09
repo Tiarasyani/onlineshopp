@@ -33,28 +33,28 @@ Markdown
 Proyek ini terorganisir dalam struktur direktori dan berkas sebagai berikut:
 
 .
-├── src/                          # Berkas sumber (source code) aplikasi
-│   └── onlineshop/               # Paket utama aplikasi yang berisi semua kelas Java
-│       ├── FormBeranda.java      # Halaman utama/dashboard aplikasi.
-│       ├── FormCheckout.java     # Form untuk proses pembayaran dan penyelesaian pesanan.
-│       ├── FormKeranjang.java    # Form untuk melihat dan mengelola item-item di keranjang belanja.
-│       ├── FormMenu.java         # Form untuk menampilkan daftar produk yang tersedia.
-│       ├── FormPesanan.java      # Form untuk melihat riwayat atau status pesanan yang telah ditempatkan.
-│       ├── Product.java          # Kelas induk abstrak untuk semua jenis produk.
-│       ├── Electronics.java      # Subclass dari Product untuk produk elektronik, mencakup Specification sebagai inner class dan mengimplementasikan Discountable.
-│       ├── Clothing.java         # Subclass dari Product untuk produk pakaian, menggunakan Size (enum) dan mengimplementasikan Discountable.
+├── src/                          # Berkas sumber (source code) aplikasi Java
+│   └── onlineshop/               # Direktori paket utama aplikasi yang berisi semua kelas Java
+│       ├── FormBeranda.java      # Antarmuka pengguna untuk halaman beranda/dashboard utama aplikasi.
+│       ├── FormCheckout.java     # Antarmuka pengguna untuk proses pembayaran dan penyelesaian pesanan.
+│       ├── FormKeranjang.java    # Antarmuka pengguna untuk melihat dan mengelola item-item di keranjang belanja.
+│       ├── FormMenu.java         # Antarmuka pengguna untuk menampilkan daftar produk yang tersedia.
+│       ├── FormPesanan.java      # Antarmuka pengguna untuk melihat riwayat atau status pesanan yang telah ditempatkan.
+│       ├── Product.java          # Kelas induk abstrak yang mendefinisikan properti dasar untuk semua jenis produk.
+│       ├── Electronics.java      # Subkelas dari Product untuk produk elektronik, mencakup Specification (inner class) dan mengimplementasikan Discountable.
+│       ├── Clothing.java         # Subkelas dari Product untuk produk pakaian, menggunakan Size (enum) dan mengimplementasikan Discountable.
 │       ├── Size.java             # Definisi enum untuk ukuran pakaian (XS, S, M, L, XL).
 │       ├── Discountable.java     # Antarmuka yang mendefinisikan kontrak untuk produk yang dapat diberi diskon.
-│       ├── ShoppingCart.java     # Kelas yang mengelola daftar item yang dibeli oleh pelanggan.
-│       ├── ProductManager.java   # Kelas untuk mengelola daftar produk yang tersedia.
-│       ├── TransactionManager.java # Kelas untuk mencatat dan menampilkan riwayat pembelian pelanggan.
-│       ├── ProductNotFoundException.java # Custom exception untuk menangani kasus produk tidak ditemukan.
-│       ├── MainApp.java          # Kelas utama yang menjalankan aplikasi, menginisialisasi produk, menangani input pengguna, dan menampilkan output.
-│       ├── Order.java            # Model data untuk objek pesanan.
-│       └── OrderItem.java        # Model data untuk item dalam sebuah pesanan.
+│       ├── ShoppingCart.java     # Kelas untuk mengelola daftar item yang dibeli oleh pelanggan (keranjang belanja).
+│       ├── ProductManager.java   # Kelas untuk mengelola daftar produk yang tersedia dalam sistem.
+│       ├── TransactionManager.java # Kelas untuk mencatat dan menampilkan riwayat pembelian/transaksi pelanggan.
+│       ├── ProductNotFoundException.java # Custom exception untuk menangani kasus ketika produk tidak ditemukan.
+│       ├── MainApp.java          # Kelas utama yang berfungsi sebagai titik masuk aplikasi, menginisialisasi komponen, menangani input pengguna, dan menampilkan output.
+│       ├── Order.java            # Model data yang merepresentasikan sebuah pesanan, berisi detail seperti informasi pelanggan, total harga, dan daftar item pesanan.
+│       └── OrderItem.java        # Model data yang merepresentasikan satu item dalam sebuah pesanan, termasuk produk dan kuantitasnya.
 ├── build/                        # Direktori untuk hasil kompilasi dan artefak pembangunan proyek
-│   └── classes/                  # Berkas kelas (bytecode) yang terkompilasi dari sumber Java
-│       └── onlineshop/
+│   └── classes/                  # Berkas kelas (bytecode) yang terkompilasi dari kode sumber Java
+│       └── onlineshop/           # Struktur paket yang sama dengan src, berisi file .class
 │           ├── FormBeranda.class
 │           ├── FormCheckout.class
 │           ├── FormKeranjang.class
@@ -72,17 +72,17 @@ Proyek ini terorganisir dalam struktur direktori dan berkas sebagai berikut:
 │           ├── MainApp.class
 │           ├── Order.class
 │           └── OrderItem.class
-├── nbproject/                    # Berkas konfigurasi dan metadata proyek NetBeans IDE
-│   ├── build-impl.xml            # Skrip pembangunan Ant yang digunakan oleh NetBeans
-│   ├── genfiles.properties       # Berkas properti yang dihasilkan
-│   ├── private/                  # Pengaturan proyek pribadi atau spesifik pengguna
+├── nbproject/                    # Berkas konfigurasi dan metadata proyek untuk NetBeans IDE
+│   ├── build-impl.xml            # Skrip pembangunan Ant yang digunakan oleh NetBeans.
+│   ├── genfiles.properties       # Berkas properti yang dihasilkan NetBeans.
+│   ├── private/                  # Direktori untuk pengaturan proyek pribadi atau spesifik pengguna NetBeans.
 │   │   └── private.xml
-│   ├── project.properties        # Properti konfigurasi proyek
-│   └── project.xml               # Berkas definisi proyek
-├── .gitattributes                # Konfigurasi Git untuk atribut berkas (misal: penanganan line ending)
-├── .gitignore                    # Berkas yang menentukan berkas/direktori yang harus diabaikan oleh Git
-├── manifest.mf                   # Berkas manifest untuk arsip JAR, berisi informasi tentang aplikasi
-└── README.md                     # Berkas dokumentasi utama proyek ini
+│   ├── project.properties        # Properti konfigurasi umum proyek NetBeans.
+│   └── project.xml               # Berkas definisi proyek NetBeans.
+├── .gitattributes                # Berkas konfigurasi Git untuk atribut berkas (misal: penanganan line ending).
+├── .gitignore                    # Berkas yang menentukan berkas atau direktori yang harus diabaikan oleh Git.
+├── manifest.mf                   # Berkas manifest untuk arsip JAR, berisi informasi metadata tentang aplikasi.
+└── README.md                     # Berkas dokumentasi utama proyek ini.
 
 ### Kelas Penting:
 
