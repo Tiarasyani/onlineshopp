@@ -10,15 +10,6 @@ Aplikasi ini adalah contoh sederhana sistem pemesanan produk yang dikembangkan m
 -   **FormCheckout.java**: Proses finalisasi pembelian. Menampilkan ringkasan total pesanan dan mungkin input untuk informasi pengiriman/pembayaran.
 -   **FormPesanan.java**: Menampilkan riwayat atau status pesanan yang telah ditempatkan oleh pengguna.
 
-## Struktur Kode
-
-Proyek ini terorganisir dengan baik, memisahkan logika antarmuka pengguna (GUI) dari logika bisnis (model data).
-Tentu, saya akan membuatkan README.md berdasarkan semua file Java yang Anda berikan. Kali ini ada beberapa file baru yang mengindikasikan struktur yang lebih kompleks, termasuk antarmuka (Discountable), kelas-kelas model (Electronics, Order, OrderItem), dan aplikasi utama (MainApp).
-
-Berikut draf README.md yang lebih komprehensif:
-
-Markdown
-
 # Aplikasi E-commerce Sederhana
 
 Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dikembangkan menggunakan Java Swing. Aplikasi ini dirancang untuk menunjukkan fungsionalitas dasar seperti menampilkan produk, manajemen keranjang belanja, proses checkout, dan pengelolaan pesanan, serta penerapan konsep OOP seperti interface dan inheritance.
@@ -35,19 +26,18 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 
 Proyek ini terorganisir dengan baik, memisahkan logika antarmuka pengguna (GUI) dari logika bisnis (model data).
 
-.
 ├── src/
-│   └── (package_name)/
-│       ├── FormBeranda.java           # Halaman utama/dashboard
-│       ├── FormCheckout.java          # Form untuk proses pembayaran
-│       ├── FormKeranjang.java         # Form untuk melihat dan mengelola keranjang
-│       ├── FormMenu.java              # Form untuk menampilkan daftar produk
-│       ├── FormPesanan.java           # Form untuk melihat riwayat pesanan
-│       ├── Discountable.java          # Interface untuk objek yang dapat didiskon
-│       ├── Electronics.java           # Contoh kelas produk (mungkin turunan dari kelas produk dasar)
-│       ├── MainApp.java               # Kelas utama untuk menjalankan aplikasi
-│       ├── Order.java                 # Model data untuk objek pesanan
-│       └── OrderItem.java             # Model data untuk item dalam sebuah pesanan
+│   └── onlineshop/           # Asumsi nama paket adalah 'onlineshop'
+│       ├── FormBeranda.java
+│       ├── FormCheckout.java
+│       ├── FormKeranjang.java
+│       ├── FormMenu.java
+│       ├── FormPesanan.java
+│       ├── Discountable.java
+│       ├── Electronics.java
+│       ├── MainApp.java
+│       ├── Order.java
+│       └── OrderItem.java
 └── README.md
 
 ### Kelas Penting:
