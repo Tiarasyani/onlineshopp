@@ -46,7 +46,7 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 ![cart2](https://github.com/user-attachments/assets/7fcfcda8-3bd2-46b2-8ca0-4cfc4fe2f6c5)
 ![checkout](https://github.com/user-attachments/assets/241ad8fc-fc0a-439a-b1ea-3bd20a78f82a)
 ![confirm](https://github.com/user-attachments/assets/621d0ac1-b554-47ff-93c8-d388e01c4f95)
-![pesanan](https://github.com/user-attachments/assets/529d48f5-5d13-44bd-a9a2-6a98f71535d2)
+![pesanan](https://github.com/user-attachments/assets/a9a4467e-2f89-4312-a564-1f2b85ad5960)
 
 ## 👥 Anggota Kelompok
 
