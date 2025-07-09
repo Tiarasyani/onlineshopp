@@ -22,23 +22,18 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 -   **FormCheckout.java**: Proses finalisasi pembelian. Menampilkan ringkasan total pesanan dan mungkin input untuk informasi pengiriman/pembayaran.
 -   **FormPesanan.java**: Menampilkan riwayat atau status pesanan yang telah ditempatkan oleh pengguna.
 
-## Struktur Kode
+## 📁 Struktur Berkas Proyek
 
-Proyek ini terorganisir dengan baik, memisahkan logika antarmuka pengguna (GUI) dari logika bisnis (model data).
+Proyek ini memiliki struktur berkas sebagai berikut:
 
-├── src/
-│   └── onlineshop/           # Asumsi nama paket adalah 'onlineshop'
-│       ├── FormBeranda.java
-│       ├── FormCheckout.java
-│       ├── FormKeranjang.java
-│       ├── FormMenu.java
-│       ├── FormPesanan.java
-│       ├── Discountable.java
-│       ├── Electronics.java
-│       ├── MainApp.java
-│       ├── Order.java
-│       └── OrderItem.java
-└── README.md
+.
+├── src/                          # Berkas sumber (source code)
+│   └── onlineshop/               # Paket aplikasi
+│       ├── FormCheckout.java     # Form untuk proses pembayaran.
+│       ├── FormKeranjang.java    # Form untuk mengelola keranjang belanja.
+│       ├── FormMenu.java         # Form untuk menampilkan daftar menu/produk.
+│       └── FormPesanan.java      # Form untuk melihat riwayat pesanan.
+└── README.md                     # Berkas dokumentasi utama proyek.
 
 ### Kelas Penting:
 
