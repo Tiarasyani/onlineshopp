@@ -37,8 +37,8 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 -   **IDE**: NetBeans
 
 ## 📊 Hasil Output
-![image](https://github.com/user-attachments/assets/675850b7-7e8b-439e-82f6-1f7f9071ade1)
-![image](https://github.com/user-attachments/assets/24103efb-2314-41ef-9735-5df44108d227)
+![beranda](https://github.com/user-attachments/assets/675850b7-7e8b-439e-82f6-1f7f9071ade1)
+![produk](https://github.com/Tiarasyani/onlineshopp/issues/1#issue-3215029257)
 ![image](https://github.com/user-attachments/assets/46e18f41-06b9-4087-b103-a9da39d08bf5)
 ![image](https://github.com/user-attachments/assets/6ee76f01-59ad-4562-bb98-54f56f51f630)
 ![image](https://github.com/user-attachments/assets/7fa8d4c6-cc14-462c-a350-d10f7c52da88)
