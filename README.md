@@ -39,13 +39,13 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 ## 📊 Hasil Output
 ![beranda](https://github.com/user-attachments/assets/675850b7-7e8b-439e-82f6-1f7f9071ade1)
 ![produk](https://github.com/user-attachments/assets/c92451fb-d5ab-45ac-a4ed-21feeceef83d)
-![cart](https://github.com/user-attachments/assets/7b368044-8fee-45c2-8382-98c961173429)
-![delete](https://github.com/user-attachments/assets/d35ae5f7-b6b3-4802-9840-3a7fe1e95e8f)
-![addproduct1](https://github.com/user-attachments/assets/529d48f5-5d13-44bd-a9a2-6a98f71535d2)
-![addproduct2](https://github.com/user-attachments/assets/7fcfcda8-3bd2-46b2-8ca0-4cfc4fe2f6c5)
-![checkout](https://github.com/user-attachments/assets/fce29a12-933f-4ae4-adae-a7b91412efbb)
-![confirmCO](https://github.com/user-attachments/assets/241ad8fc-fc0a-439a-b1ea-3bd20a78f82a)
-![pesanan](https://github.com/user-attachments/assets/621d0ac1-b554-47ff-93c8-d388e01c4f95)
+![add1](https://github.com/user-attachments/assets/7b368044-8fee-45c2-8382-98c961173429)
+![add2](https://github.com/user-attachments/assets/d35ae5f7-b6b3-4802-9840-3a7fe1e95e8f)
+![delete](https://github.com/user-attachments/assets/7fcfcda8-3bd2-46b2-8ca0-4cfc4fe2f6c5)
+![cart](https://github.com/user-attachments/assets/fce29a12-933f-4ae4-adae-a7b91412efbb)
+![checkout](https://github.com/user-attachments/assets/241ad8fc-fc0a-439a-b1ea-3bd20a78f82a)
+![confirm](https://github.com/user-attachments/assets/621d0ac1-b554-47ff-93c8-d388e01c4f95)
+![pesanan](https://github.com/user-attachments/assets/529d48f5-5d13-44bd-a9a2-6a98f71535d2)
 
 ## 👥 Anggota Kelompok
 
