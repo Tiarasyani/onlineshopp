@@ -37,16 +37,16 @@ Aplikasi ini adalah contoh sederhana sistem e-commerce/pemesanan produk yang dik
 -   **IDE**: NetBeans
 
 ## 📊 Hasil Output
-![beranda](https://github.com/user-attachments/assets/ad1814ee-d2d4-40df-8201-591f5495d695)
-![produk](https://github.com/user-attachments/assets/e27aa256-788d-4e13-a50d-34585a2573ca)
-![add1](https://github.com/user-attachments/assets/1080fa87-8ff8-4402-8246-8d03c4d31e0e)
-![add2](https://github.com/user-attachments/assets/3168ced0-e0e3-4276-a402-9e56d68efe26)
-![cart1](https://github.com/user-attachments/assets/15a3de82-cbca-44b6-a452-44d0808bfc64)
-![delete](https://github.com/user-attachments/assets/873683b1-ff72-4162-bf67-14e829e72681)
-![cart2](https://github.com/user-attachments/assets/dbd2058f-8752-45e2-8e35-3f0f6b3a85c2)
-![checkout](https://github.com/user-attachments/assets/0c7412ca-04ab-4d7d-b71d-b55a91fe86b3)
-![confirm](https://github.com/user-attachments/assets/1ee31123-6a5a-4c88-96c5-232a493fe2b0)
-![pesanan](https://github.com/user-attachments/assets/70206215-8706-4f77-9ec6-7009501b7978)
+![beranda](https://github.com/user-attachments/assets/e27aa256-788d-4e13-a50d-34585a2573ca)
+![produk](https://github.com/user-attachments/assets/1080fa87-8ff8-4402-8246-8d03c4d31e0e)
+![add1](https://github.com/user-attachments/assets/3168ced0-e0e3-4276-a402-9e56d68efe26)
+![add2](https://github.com/user-attachments/assets/15a3de82-cbca-44b6-a452-44d0808bfc64)
+![cart1](https://github.com/user-attachments/assets/873683b1-ff72-4162-bf67-14e829e72681)
+![del](https://github.com/user-attachments/assets/dbd2058f-8752-45e2-8e35-3f0f6b3a85c2)
+![cart2](https://github.com/user-attachments/assets/0c7412ca-04ab-4d7d-b71d-b55a91fe86b3)
+![co](https://github.com/user-attachments/assets/1ee31123-6a5a-4c88-96c5-232a493fe2b0)
+![confirm](https://github.com/user-attachments/assets/70206215-8706-4f77-9ec6-7009501b7978)
+![pesanan](https://github.com/user-attachments/assets/ad1814ee-d2d4-40df-8201-591f5495d695)
 
 ## 👥 Anggota Kelompok
 
