@@ -1,4 +1,4 @@
-# Aplikasi Online Shopp Menggunakan Netbeans Sederhana
+# Aplikasi Online Shopp Sederhana Menggunakan Netbeans 
 
 Aplikasi ini adalah contoh sederhana sistem pemesanan produk yang dikembangkan menggunakan Java Swing. Aplikasi ini dirancang untuk menunjukkan fungsionalitas dasar seperti menampilkan produk, manajemen keranjang belanja, proses checkout, dan pengelolaan pesanan, serta penerapan konsep OOP seperti interface dan inheritance.
 
